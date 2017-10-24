@@ -1,14 +1,10 @@
 # World of Warcraft API Library
 # by mostm
 from io import BytesIO
-
 import requests
 from PIL import Image
-
 import config
-
 print('Lib-WoW:Init')
-
 region_lock = 'EU'
 api = {'EU': {'Character': {'Profile': 'https://eu.api.battle.net/wow/character/{realm}/{name}',
                             'Data': {'Races': 'https://eu.api.battle.net/wow/data/character/races',

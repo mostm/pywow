@@ -2,16 +2,15 @@
 Python WoW API Wrapper
 
 ## Installation
-1. `pip install -r requirements.txt`
-2. Get token for WoW Community API [here](https://dev.battle.net/apps/register)
-3. Add wow.py to your project
-4. Create/add to file config.py these values:
+1. `pip install -U pywow`
+2. Get API Key for WoW Community [here](https://dev.battle.net/apps/register)
+4. Create/add to file `config.py` in project folder with these values:
 ```python
 blizzard_key = 'Your_WoW_Community_APIKEY_here'
 ```
 
 ## Usage
-*!* Only EU region is currently supported. 
+**! Only EU region is currently supported**
 ```python
 import wow
 ```
