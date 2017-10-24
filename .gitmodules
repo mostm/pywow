@@ -1,0 +1,6 @@
+[submodule "Requests"]
+	path = Requests
+	url = https://github.com/requests/requests.git
+[submodule "Pillow"]
+	path = Pillow
+	url = https://github.com/python-pillow/Pillow.git
